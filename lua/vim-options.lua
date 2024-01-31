@@ -14,3 +14,5 @@ vim.cmd("set backspace=indent,eol,start")
 vim.keymap.set("i", "<C-BS>", "<C-W>", {})
 vim.keymap.set("i", "<C-h>", "<C-w>", {})
 
+vim.opt.list = true
+vim.opt.listchars:append("space:·")

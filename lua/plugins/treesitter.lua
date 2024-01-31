@@ -6,7 +6,10 @@ return {
     config.setup({
       ensure_installed = { "lua", "java", "c", "cpp", "rust" },
       highlight = { enable = true },
-      indent = { enable = true }
+      indent = {
+        enable = true,
+        disable = { "rust", "java" }
+      }
     })
   end
 }
