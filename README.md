@@ -19,14 +19,14 @@
 `<Space>ga` (n) - stage all changes (`:Git add *`)\
 `<Space>gc` (n) - commit changes (`:Git commit`)\
 `<Space>gP` (n) - push changes (`:Git push`)\
-`<Space>gp` (n) - preview hunk (`:Gitsigns preview_hunk`)|
-`<Space>gt` (n) - toggle current line blame (`:Gitsigns toggle_current_line_blame`)\
+`<Space>gp` (n) - preview hunk (`:Gitsigns preview_hunk`)\
+`<Space>gt` (n) - toggle current line blame (`:Gitsigns toggle_current_line_blame`)
 
 ### NeoTree
 `<Ctrl>n` (n) - reveal filesystem (`:Neotree filesystem reveal left`)
 
 ### Telescope
-`<Ctrl>p` (n) - find files
+`<Ctrl>p` (n) - find files\
 `<Space>fg` (n) - live grep
 
 ### ToggleTerm
