@@ -3,7 +3,7 @@ return {
   config = function()
     require('lualine').setup({
       options = {
-        theme = "dracula",
+        theme = "nordic",
         component_separators = '|',
         section_separators = { left = '', right = '' },
       },
@@ -25,7 +25,7 @@ return {
         },
         lualine_b = {},
         lualine_c = {},
-        lualine_x = { colored = true },
+        lualine_x = { },
         lualine_y = {},
         lualine_z = { 'location' },
       },
