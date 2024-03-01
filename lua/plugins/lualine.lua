@@ -2,7 +2,7 @@ return {
   'nvim-lualine/lualine.nvim',
   config = function()
     require('lualine').setup({
-      theme = "catppuccin",
+      theme = "catppuccin-macchiato",
       options = {
         component_separators = '|',
         section_separators = { left = '', right = '' },
