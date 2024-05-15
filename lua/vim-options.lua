@@ -8,6 +8,7 @@ vim.cmd("set cc=80")
 vim.cmd("set mouse=a")
 vim.cmd("set number")
 vim.cmd("set ttyfast")
+vim.cmd("set guicursor=i:block")
 vim.g.mapleader = " "
 
 vim.cmd("set backspace=indent,eol,start")
