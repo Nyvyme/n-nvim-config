@@ -36,4 +36,4 @@
 `<Ctrl><Backspace>` (i) - delete word
 
 ## Theme
-`catppuccin`
+`catppuccin-mocha`
