@@ -10,5 +10,7 @@ return {
     vim.opt.updatetime = 300
     vim.opt.signcolumn = "yes"
     vim.keymap.set("i", "<CR>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], {silent = true, noremap = true, expr = true, replace_keycodes = false})
+
+    vim.g.coc_global_extensions = { "coc-rust-analyzer", "coc-clangd", "coc-clang-format-style-options", "coc-java", "coc-html-css-support", "coc-json", "coc-lua", "coc-highlight" }
   end
 }
