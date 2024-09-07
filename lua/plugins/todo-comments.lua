@@ -19,7 +19,7 @@ return {
       multiline_pattern = "^.",
       multiline_context = 10,
       before = "",
-      keyword = "wide",
+      keyword = "bg",
       after = "fg",
       pattern = [[.*<(KEYWORDS)\s*:]],
       comments_only = true,
