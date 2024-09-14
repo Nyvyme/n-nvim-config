@@ -16,6 +16,7 @@
 - [vim glsl](https://github.com/tikhomirov/vim-glsl)
 - [nvim cmp](https://github.com/hrsh7th/nvim-cmp)
 - [cmp nvim lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [move](https://github.com/fedepujol/move.nvim)
 
 
 ## Key Bindings
@@ -39,4 +40,4 @@
 `<Ctrl><Backspace>` (i) - delete word
 
 ## Theme
-`catppuccin-mocha`
+`onedark`
