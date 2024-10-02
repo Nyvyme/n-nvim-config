@@ -17,7 +17,8 @@ return {
         "html",
         "jdtls",
         "jsonls",
-        "glslls"
+        "glslls",
+        "zls",
       }
     }
 
@@ -31,5 +32,6 @@ return {
     require('lspconfig').jdtls.setup { capabilities = capabilities }
     require('lspconfig').jsonls.setup { capabilities = capabilities }
     require('lspconfig').glslls.setup { capabilities = capabilities }
+    require('lspconfig').zls.setup { capabilities = capabilities }
   end
 }
